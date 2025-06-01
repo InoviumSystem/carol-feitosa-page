@@ -15,13 +15,13 @@
   }
 
   .hero {
-    position: relative;
     background: url('https://via.placeholder.com/800x600') center/cover no-repeat;
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center; /* ⬅ Isso centraliza o texto dentro do .hero */
   }
 
   .logo {
@@ -38,6 +38,8 @@
   .logo img {
     max-width: 80px;
     height: auto;
+    border-radius: 50%; /* Deixa a imagem redonda */
+    display: block;
   }
 
   h1 {
@@ -126,7 +128,6 @@
     margin-bottom: 1rem;
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   }
-
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -198,3 +199,4 @@
 
 </body>
 </html>
+
