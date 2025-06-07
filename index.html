@@ -422,9 +422,52 @@ function atualizarHorariosDisponiveis(dados, dataSelecionada) {
   <div class="modal-content">
     <span class="close" onclick="closeModal()">&times;</span>
     <h2>À propos de moi</h2>
-    <p>Je suis une massothérapeute passionnée par le bien-être et la relaxation...</p>
+    <p class="apropos-text">
+      Je suis une massothérapeute spécialisée en Shiatsu, réflexologie plantaire, méthode traditionnelle chinoise et Reiki. Ces pratiques ancestrales visent à rééquilibrer l'énergie vitale du corps, à soulager les tensions et à favoriser la santé globale.<br><br>
+      Basée à Nice, je propose des séances en français, portugais et anglais pour vous offrir un accompagnement personnalisé, quelle que soit votre langue.<br><br>
+      <strong>Prenez rendez-vous dès aujourd’hui pour retrouver équilibre et bien-être. Votre corps vous remerciera.</strong>
+    </p>
+    <div class="icon-container">
+      <img src="trace_logo.png" alt="Icône massage" class="icon" />
+    </div>
   </div>
 </div>
+
+<style>
+  .modal-content {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px;
+    position: relative;
+  }
+
+  .apropos-text {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .modal h2 {
+    text-align: center;
+  }
+
+  .close {
+    float: right;
+    font-size: 28px;
+    cursor: pointer;
+  }
+
+  .icon-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .icon {
+    width: 150px;
+    height: auto;
+    opacity: 0.8;
+  }
+</style>
 
 <!-- Modal Formulaire -->
 <div class="modal" id="formModal">
@@ -691,6 +734,7 @@ function atualizarHorariosDisponiveis(dados, dataSelecionada) {
 </script>
 </body>
 </html>
+
 
 
 
